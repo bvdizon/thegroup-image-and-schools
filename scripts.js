@@ -6,7 +6,18 @@ const communityList = document.getElementById('communityList');
 // Display Schools from fetched data
 const displaySchools = (arr) => {
 	arr.forEach((school) => {
-		const { school: name, address, phone: tel, type, programs, grade, about1, cre_url: logo } = school;
+		const {
+			school: name,
+			address,
+			phone: tel,
+			type,
+			programs,
+			grade,
+			about1,
+			about2,
+			about3,
+			cre_url: logo
+		} = school;
 
 		let schoolTemplate = `   
         <h3>${name}</h3>
@@ -22,7 +33,11 @@ const displaySchools = (arr) => {
                     &lt;p&gt;&lt;strong&gt;Grades: &lt;/strong&gt;${grade}&lt;/p&gt;
                 &lt;/div&gt;
                 &lt;div&gt;
-                    &lt;div class=&quot;img-container tooltip&quot; data-tooltip=&quot;${about1}&quot;&gt;
+                    &lt;div class=&quot;img-container tooltip&quot; data-tooltip=&quot;${about1 +
+						' ' +
+						about2 +
+						' ' +
+						about3}&quot;&gt;
                         &lt;img class=&quot;lazyload&quot; data-src=&quot;${logo}&quot; alt=&quot;${name}&quot;&gt;
                     &lt;/div&gt;
                 &lt;/div&gt;
