@@ -23,7 +23,7 @@ const displaySchools = (arr) => {
                 &lt;/div&gt;
                 &lt;div&gt;
                     &lt;div class=&quot;img-container tooltip&quot; data-tooltip=&quot;${about1}&quot;&gt;
-                        &lt;img src=&quot;${logo}&quot; alt=&quot;${name}&quot;&gt;
+                        &lt;img class=&quot;lazyload&quot; data-src=&quot;${logo}&quot; alt=&quot;${name}&quot;&gt;
                     &lt;/div&gt;
                 &lt;/div&gt;
             &lt;/div&gt;
