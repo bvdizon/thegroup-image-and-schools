@@ -54,7 +54,7 @@ const displayImages = (cmty, data) => {
             <div>
             <pre>
 &lt;a href=&quot;${image_cre}&quot; data-gallery=&quot;gallery1&quot; class=&quot;glightbox&quot; rel=&quot;noindex nofollow&quot;&gt;
-    &lt;img class=&quot;lazyload&quot; data-src=&quot;${image_cre}.jpg&quot; alt=&quot;${image_caption}&quot;&gt;
+    &lt;img class=&quot;lazyload&quot; data-src=&quot;${image_cre}&quot; alt=&quot;${image_caption}&quot;&gt;
 &lt;/a&gt;
             </pre>
             </div>        
