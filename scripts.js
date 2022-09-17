@@ -39,7 +39,7 @@ const displaySchools = (arr) => {
 						about2 +
 						' ' +
 						about3}&quot;&gt;
-                        &lt;a href=&quot;website&quot; target=&quot;_blank&quot; rel=&quot;nofollow noindex noreferrer&quot;&gt;
+                        &lt;a href=&quot;${website}&quot; target=&quot;_blank&quot; rel=&quot;nofollow noindex noreferrer&quot;&gt;
                             &lt;img class=&quot;lazyload&quot; data-src=&quot;${logo}&quot; alt=&quot;${name}&quot;&gt;
                         &lt;/a&gt;
                     &lt;/div&gt;
